@@ -1,0 +1,352 @@
+body{
+    margin: 0 auto;
+    font-family: 'Comfortaa', cursive;
+    font-size: 17px
+}
+
+a{
+    text-decoration-line: none;
+    color: white;
+}
+
+h3,h2,h4,p{
+    margin: 0;
+}
+
+.logo{
+    width: 50px;
+    padding: 10px;
+}
+
+nav{
+    z-index: 170;
+    top: 0;
+    position: sticky;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px
+}
+
+.contHead{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,255,3,0.804435152967437) 53%, rgba(18,255,0,0) 100%);
+}
+
+.containerNav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+}
+
+main{
+    width: 100%;
+    display: flex;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardContainer{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card{
+    width: 200px;
+    padding: 15px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: -1px 4px 10px darkgray;
+    transition: 0.9s;
+    text-align: center;
+    line-height: 22px;
+    
+}
+
+.card:hover{
+    box-shadow: -1px 8px 10px #04ff00;
+    transition: 0.5s;
+}
+
+.card:hover .coast{
+    text-shadow: 1px 1px 1px yellow, -1px -1px 1px yellow;
+    transition: 0.5s;
+}
+
+.card:hover .btn{
+    background-color: yellow;
+    box-shadow: 1px 2px 3px yellowgreen;
+    transition: 0.5s;
+}
+
+.imgcard{
+    width: 90%;
+}
+
+.btn{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+    background-color: #04f500;
+    box-shadow: 1px 2px 3px #2aff26;
+    color: black;
+    transition: 0.5s;
+}
+
+.titleCard{
+}
+
+.coast{
+    margin: 20px 0;
+    transition: 0.5s;
+}
+
+.imgcard{
+    margin: 0 0 15px 0;
+}
+
+.catalog{
+    margin: 50px;
+    background-color: #04f500;
+    padding: 15px;
+    border-radius: 20% 0;
+    box-shadow: 1px 2px 3px #2aff26;
+    transition: 0.5s;
+}
+
+.catalog:hover{
+    border-radius: 100% 0;
+    transition: 0.5s;
+}
+
+.mainTitle{
+    font-family: 'Beau Rivage', cursive;
+    font-size: 90px;
+    margin-bottom: 10px;
+    transition: 0.6s;
+}
+
+.mainTitle:hover{
+    border-radius: 0% 100%;
+    background: white;
+    transition: 0.5s;
+    box-shadow: 0px 0px 30px white;
+    text-shadow: 0px 0px 4px black;
+}
+
+
+
+.imgcard{
+}
+
+.navItem{
+    transition: 0.1s;
+}
+
+.navItem:hover{
+    color: #04f500;
+    transition: 0.2s;
+    margin: 3px 0 0 0;
+    text-decoration-line: overline;
+    text-shadow: 1px 1px 7px #2aff26, -1px -2px 7px #2aff26;
+    
+}
+
+.topProd{
+    margin: 100px 0 50px 0;
+    width: 50%;
+    text-align: center;
+    margin: 100px 0 0 0;
+    background-color: red;
+    padding: 15px;
+    border-radius: 0% 100%;
+    box-shadow: 1px 2px 3px red;
+    transition: 0.5s;
+}
+
+.topProd:hover{
+    border-radius: 100% 0%;
+    box-shadow: 0px 0px 10px red;
+    background: red
+    
+}
+
+.topmark:before{
+    content: url(../img/fire.png);
+    z-index: 160;
+    position: relative;
+    top: 10%;
+    box-shadow: 0px 0px 30px red;
+    border-radius: 100%;
+}
+
+.cardTop .btn{
+    background: red;
+    box-shadow: 1px 2px 3px red;
+    
+}
+
+.cardTop:hover{
+    box-shadow: 1px 2px 10px red;
+}
+
+
+.specLogo{
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+.Free{
+    margin: 100px 0 50px 0;
+    width: 50%;
+    text-align: center;
+    margin: 100px 0 0 0;
+    background-color: yellow;
+    padding: 15px;
+    border-radius: 100% 20%;
+    box-shadow: 1px 2px 3px yellow;
+    transition: 0.5s;
+}
+
+.Free:hover{
+    border-radius: 20% 100%;
+}
+
+.freemark:before{
+    content: '35%';
+    z-index: 160;
+    position: relative;
+    top: 10%;
+    box-shadow: 2px 1px 2px yellow;
+    background: yellow;
+    border-radius: 100%;
+}
+
+.cardFree:hover{
+    box-shadow: 1px 10px 10px yellow
+}
+
+.cardFree:hover .coast{
+    color: red;
+}
+
+.cardFree:hover .btn{
+    background: red;
+    box-shadow: 1px 2px 3px red;
+}
+
+footer{
+    margin: 50px 0 0 0;
+    padding: 50px;
+    box-sizing: border-box;
+    width: 100%;
+    background: black;
+    color: white;
+    font-size: 19px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-shadow: 1px 2px 3px #2aff26, -1px -2px 3px #2aff26;
+}
+.autor{
+    margin: 10px;
+    width: 40%;
+    text-align: center
+    
+}
+
+.contacts{
+    text-align: center;
+}
+
+li{
+    list-style-type: none;
+    margin: 10px 0 0 0;
+}
+
+.fotLog{
+    text-align: center
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 50px 0 0 0;
+}
+label{
+    margin: 20px 0 5px 0;
+}
+
+input{
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid #2aff26;
+    margin: 10px 0 10px 0;
+    transition: 0.5s
+}
+
+input:focus{
+    border-bottom: 1px solid red;
+    outline: none;
+    border-radius: 10px;
+    transition: 0.5s
+}
+
+
+
+
+button{
+    margin: 20px 0 0 0;
+    width: 300px;
+    height: 40px;
+    align-self: center;
+    background: #2aff26;
+    border-radius: 100% 0;
+    text-shadow: 0px 0px 3px black;
+}
+
+button:hover{
+    cursor: alias;
+}
+
+textarea{
+    height: 200px;
+    resize: none;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #2aff26;
+    padding: 20px;
+    font-size: 15px;
+    transition: 0.5s;
+    
+    
+}
+
+textarea:focus{
+   border: 1px solid red;
+   transition: 0.5s;
+}
+
+.byesect{
+    margin: 100px 0 50px 0;
+}
