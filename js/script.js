@@ -10,5 +10,6 @@ function sbor(name, count){
     alert('Вы положили в корзину ' + name + '. Теперь цена Вашей корзины составляет ' + sum + 'руб.')
     let block = document.getElementById('itog')
     block.textContent = massName + ' по цене ' + massCount + 'рублей соответственно.'
+
 }
 
