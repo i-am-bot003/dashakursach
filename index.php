@@ -101,7 +101,6 @@
                     <h4 class="titleCard">Кулер для процессора ABKONCORE CT405W</h4>
                     <h3 class="coast">2499Р</h3>
                     <a><div class="btn" onclick="sbor('Кулер для процессора ABKONCORE CT405W',2499)"> В корзину</div></a>
-                    <div class="line">Товар в корзине у 385 пользователей</div>
                     </div>
                     </div>
                     <div class="topmark">
@@ -110,20 +109,14 @@
                     <h4 class="titleCard">Корпус для компьютера ABKONCORE Cronos 750 (ABCRO750)</h4>
                     <h3 class="coast">3299Р</h3>
                     <a><div class="btn" onclick="sbor('Корпус для компьютера ABKONCORE Cronos 750 (ABCRO750)',3299)"> В корзину</div></a>
-                 <div class="line">Товар в корзине у 92 пользователей</div>
-                </div>
-               
-                </div>
+                </div></div>
                 <div class="topmark">
                 <div class="card cardTop">
                     <img class="imgcard" src="img/15.png" alt="">
                     <h4 class="titleCard">Твердотельный накопитель SILICON-POWER Slim S55 120GB (SP120GBSS3S55S25)</h4>
                     <h3 class="coast">2499Р</h3>
                     <a><div class="btn" onclick="sbor('Твердотельный накопитель SILICON-POWER Slim S55 120GB (SP120GBSS3S55S25)',2499)"> В корзину</div></a>
-                <div class="line">Товар в корзине у 49 пользователей</div>
-            </div>
-                
-            </div>
+                </div></div>
         </div>
 
         <a name="free"></a>
@@ -156,7 +149,7 @@
         <a name="bye"></a>
         <div class="byesect">
             <h3 class="bye">Сделать заказ</h3>
-            <form action="send.php" method="POST">
+            <form action="send.php" method="post">
                 <input type="text" name="name" id="" placeholder="ФИО">
                 <input type="tel" name="tel" id="" placeholder="Телефон">
                 <input type="email" name="mail" id="" placeholder="E-mail">
