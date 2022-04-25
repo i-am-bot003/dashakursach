@@ -1,5 +1,5 @@
 <?php
-$to = 'shtorm_and_happy-enderman@mail.com'; //куда
+$to = 'test@mail.ru'; //куда
 $from = trim($_POST['mail']);
 $fio = $_POST['name']; //фио
 $tel = $_POST['tel']; //телефон
@@ -17,10 +17,5 @@ if(mail($to, $subject, $sms)) {
 } else {
     echo 'Ошибка';
 }
-
-
-
-
-
 
 ?>

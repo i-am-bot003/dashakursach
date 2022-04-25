@@ -110,9 +110,6 @@ main{
     transition: 0.5s;
 }
 
-.titleCard{
-}
-
 .coast{
     margin: 20px 0;
     transition: 0.5s;
@@ -153,8 +150,6 @@ main{
 
 
 
-.imgcard{
-}
 
 .navItem{
     transition: 0.1s;
@@ -349,4 +344,18 @@ textarea:focus{
 
 .byesect{
     margin: 100px 0 50px 0;
+}
+
+.line{
+    text-shadow: 1px 1px 1px black;
+    text-decoration-line: underline;
+    transition: 0.5s
+}
+
+.cardTop:hover .line{
+    text-decoration-line: underline;
+    text-shadow: 1px 1px 1px black;
+    color: #2aff26;
+    transition: 0.5s
+    
 }
